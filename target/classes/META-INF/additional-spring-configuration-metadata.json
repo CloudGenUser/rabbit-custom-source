@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "time.dateFormat",
+      "type": "java.lang.String",
+      "description": "Format for the date value."
+    }
+  ]
+}

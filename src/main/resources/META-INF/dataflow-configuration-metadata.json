@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "time",
+      "type": "com.cloud.n3xgen.httpcustom.bean.TimeSupplierProperties",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.TimeSupplierProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "time.dateFormat",
+      "type": "java.lang.String",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.TimeSupplierProperties",
+      "defaultValue": ""
+    }
+  ]
+}
