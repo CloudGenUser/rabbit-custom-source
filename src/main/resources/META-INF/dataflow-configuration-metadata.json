@@ -1,17 +1,49 @@
 {
   "groups": [
     {
-      "name": "time",
-      "type": "com.cloud.n3xgen.httpcustom.bean.TimeSupplierProperties",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.TimeSupplierProperties"
+      "name": "http",
+      "type": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties"
     }
   ],
+  
   "properties": [
     {
-      "name": "time.dateFormat",
+      "name": "http.pathPattern",
       "type": "java.lang.String",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.TimeSupplierProperties",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties",
+      "defaultValue": "/"
+    },
+      {
+      "name": "http.mappedRequestHeaders",
+      "type": "java.lang.String[]",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties",
+      "defaultValue": "{DefaultHttpHeaderMapper.HTTP_REQUEST_HEADER_NAME_PATTERN}"
+    },
+      {
+      "name": "http.cors.allowedOrigins",
+      "type": "java.lang.String[]",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties$Cors",
+      "defaultValue": "{CorsConfiguration.ALL}"
+    },
+      {
+      "name": "http.cors.allowedHeaders",
+      "type": "java.lang.String[]",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties$Cors",
+      "defaultValue": "{CorsConfiguration.ALL}"
+    },
+      {
+      "name": "http.cors.allowCredentials",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties$Cors",
       "defaultValue": ""
+    },
+    {
+      "name": "server.port",
+      "type": "java.lang.Integer",
+      "defaultValue": "8080"
     }
+    
   ]
+  
 }

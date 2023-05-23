@@ -1,6 +1,3 @@
-D:\Eclipse\workspace2\timedemo\src\main\java\com\cloud\n3xgen\timedemo\utils\TimeSupplierApplicationExtraction.java
-D:\Eclipse\workspace2\timedemo\src\main\java\com\cloud\n3xgen\timedemo\TimedemoApplication.java
-D:\Eclipse\workspace2\timedemo\src\main\java\com\cloud\n3xgen\timedemo\stream\timeDemoStream.java
-D:\Eclipse\workspace2\timedemo\src\main\java\com\cloud\n3xgen\timedemo\utils\DateFormat.java
-D:\Eclipse\workspace2\timedemo\src\main\java\com\cloud\n3xgen\timedemo\stream\TimeSupplierConfiguration.java
-D:\Eclipse\workspace2\timedemo\src\main\java\com\cloud\n3xgen\timedemo\bean\TimeSupplierProperties.java
+D:\Eclipse\workspace2\httpCustom\src\main\java\com\cloud\n3xgen\httpcustom\HttpCustomApplication.java
+D:\Eclipse\workspace2\httpCustom\src\main\java\com\cloud\n3xgen\httpcustom\stream\HttpSupplierConfiguration.java
+D:\Eclipse\workspace2\httpCustom\src\main\java\com\cloud\n3xgen\httpcustom\bean\HttpSupplierProperties.java

@@ -1,8 +1,5 @@
-com\cloud\n3xgen\timedemo\utils\DateFormat.class
-com\cloud\n3xgen\timedemo\stream\TimeSupplierConfiguration.class
-com\cloud\n3xgen\timedemo\utils\DateFormat$DateFormatValidator.class
-com\cloud\n3xgen\timedemo\utils\TimeSupplierApplicationExtraction.class
-com\cloud\n3xgen\timedemo\bean\TimeSupplierProperties.class
-com\cloud\n3xgen\timedemo\stream\timeDemoStream.class
-com\cloud\n3xgen\timedemo\TimedemoApplication.class
+com\cloud\n3xgen\httpcustom\bean\HttpSupplierProperties$Cors.class
+com\cloud\n3xgen\httpcustom\HttpCustomApplication.class
+com\cloud\n3xgen\httpcustom\bean\HttpSupplierProperties.class
+com\cloud\n3xgen\httpcustom\stream\HttpSupplierConfiguration.class
 META-INF\spring-configuration-metadata.json
