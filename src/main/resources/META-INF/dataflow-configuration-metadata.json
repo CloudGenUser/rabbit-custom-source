@@ -1,47 +1,67 @@
 {
   "groups": [
     {
-      "name": "http",
-      "type": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties"
+      "name": "rabbit.supplier",
+      "type": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+      "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties"
     }
   ],
   
   "properties": [
     {
-      "name": "http.pathPattern",
-      "type": "java.lang.String",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties",
-      "defaultValue": "/"
-    },
-      {
-      "name": "http.mappedRequestHeaders",
-      "type": "java.lang.String[]",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties",
-      "defaultValue": "{DefaultHttpHeaderMapper.HTTP_REQUEST_HEADER_NAME_PATTERN}"
-    },
-      {
-      "name": "http.cors.allowedOrigins",
-      "type": "java.lang.String[]",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties$Cors",
-      "defaultValue": "{CorsConfiguration.ALL}"
-    },
-      {
-      "name": "http.cors.allowedHeaders",
-      "type": "java.lang.String[]",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties$Cors",
-      "defaultValue": "{CorsConfiguration.ALL}"
-    },
-      {
-      "name": "http.cors.allowCredentials",
+      "name": "rabbit.supplier.requeue",
       "type": "java.lang.Boolean",
-      "sourceType": "com.cloud.n3xgen.httpcustom.bean.HttpSupplierProperties$Cors",
+      "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+      "defaultValue": "true"
+    },
+      {
+      "name": "rabbit.supplier.transacted",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+      "defaultValue": "false"
+    },
+      {
+      "name": "rabbit.supplier.queues",
+      "type": "java.lang.String[]",
+      "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
       "defaultValue": ""
     },
-    {
-      "name": "server.port",
+      {
+      "name": "rabbit.supplier.mappedRequestHeaders",
+      "type": "java.lang.String[]",
+      "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+      "defaultValue": "{"STANDARD_REQUEST_HEADERS"}"
+    },
+      {
+      "name": "rabbit.supplier.initialRetryInterval",
       "type": "java.lang.Integer",
-      "defaultValue": "8080"
+      "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+      "defaultValue": "1000"
+    },
+    {
+      "name": "rabbit.supplier.maxRetryInterval",
+      "type": "java.lang.Integer",
+      "defaultValue": "30000"
+    },
+    {
+      "name": "rabbit.supplier.retryMultiplier",
+      "type": "java.lang.Double",
+      "defaultValue": "2.0"
+    },
+    {
+      "name": "rabbit.supplier.maxAttempts",
+      "type": "java.lang.Integer",
+      "defaultValue": "3"
+    },
+    {
+      "name": "rabbit.supplier.enableRetry",
+      "type": "java.lang.Boolean",
+      "defaultValue": "false"
+    },
+    {
+      "name": "rabbit.supplier.ownConnection",
+      "type": "java.lang.Boolean",
+      "defaultValue": ""
     }
     
   ]

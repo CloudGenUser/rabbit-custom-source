@@ -1,30 +1,50 @@
 {
   "properties": [
     {
-      "name": "server.port",
-      "type": "java.lang.Integer",
-      "description": "Server HTTP port."
+      "name": "rabbit.supplier.requeue",
+      "type": "java.lang.Boolean",
+      "description": "Whether rejected messages should be requeued."
     },
     {
-      "name": "http.pathPattern",
-      "type": "java.lang.String",
-      "description": "HTTP endpoint path mapping."
+      "name": "rabbit.supplier.transacted",
+      "type": "java.lang.Boolean",
+      "description": "Whether the channel is transacted."
     },{
-      "name": "http.mappedRequestHeaders",
+      "name": "rabbit.supplier.queues",
+      "type": "java.lang.String[]",
+      "description": "The queues to which the source will listen for messages."
+    },{
+      "name": "rabbit.supplier.mappedRequestHeaders",
       "type": "java.lang.String[]",
       "description": "Headers that will be mapped."
     },{
-      "name": "http.cors.allowedOrigins",
-      "type": "java.lang.String[]",
-      "description": "List of allowed origins, e.g. https://domain1.com."
+      "name": "rabbit.supplier.initialRetryInterval",
+      "type": "java.lang.Integer",
+      "description": "Initial retry interval when retry is enabled."
     },{
-      "name": "http.cors.allowedHeaders",
-      "type": "java.lang.String[]",
-      "description": "List of request headers that can be used during the actual request."
-    },{
-      "name": "http.cors.allowCredentials",
+      "name": "rabbit.supplier.maxRetryInterval",
+      "type": "java.lang.Integer",
+      "description": "Max retry interval when retry is enabled."
+    },
+    {
+      "name": "rabbit.supplier.retryMultiplier",
+      "type": "java.lang.Double",
+      "description": "Retry backoff multiplier when retry is enabled."
+    },
+     {
+      "name": "rabbit.supplier.maxAttempts",
+      "type": "java.lang.Integer",
+      "description": "The maximum delivery attempts when retry is enabled."
+    },
+     {
+      "name": "rabbit.supplier.enableRetry",
       "type": "java.lang.Boolean",
-      "description": "Whether the browser should include any cookies associated with the domain of the request being annotated."
+      "description": "true to enable retry."
+    },
+     {
+      "name": "rabbit.supplier.ownConnection",
+      "type": "java.lang.Boolean",
+      "description": "When true, use a separate connection based on the boot properties."
     }
   ]
 }

@@ -10,14 +10,14 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cloud.n3xgen</groupId>
-	<artifactId>httpcustom</artifactId>
-	<version>0.0.2</version>
-	<name>httpcustom</name>
-	<description>Http custom application</description>
+	<artifactId>rabbitcustom</artifactId>
+	<version>0.0.1</version>
+	<name>rabbitcustom</name>
+	<description>Rabbit custom application</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2021.0.1</spring-cloud.version>
-		<app.custom-name>cloudgenuser/httpcustom:0.0.2</app.custom-name>
+		<app.custom-name>cloudgenuser/rabbitcustom:0.0.1</app.custom-name>
 	</properties>
 	<dependencies>
 		<dependency>
