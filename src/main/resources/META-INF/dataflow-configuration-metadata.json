@@ -4,6 +4,11 @@
       "name": "rabbit.supplier",
       "type": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
       "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties"
+    },
+    {
+      "name": "spring.rabbitmq",
+      "type": "org.springframework.boot.autoconfigure.amqp.RabbitProperties",
+      "sourceType": "org.springframework.boot.autoconfigure.amqp.RabbitProperties"
     }
   ],
   
@@ -62,6 +67,63 @@
       "name": "rabbit.supplier.ownConnection",
       "type": "java.lang.Boolean",
       "defaultValue": ""
+    },
+    {
+      "name": "spring.rabbitmq.host",
+      "type": "java.lang.String",
+      "defaultValue": "localhost"
+    },
+      "name": "spring.rabbitmq.port",
+      "type": "java.lang.Integer",
+      "defaultValue": ""
+    },
+      "name": "spring.rabbitmq.username",
+      "type": "java.lang.String",
+      "defaultValue": "guest"
+    },
+      "name": "spring.rabbitmq.password",
+      "type": "java.lang.String",
+      "defaultValue": "guest"
+    },
+      "name": "spring.rabbitmq.ssl",
+      "type": "org.springframework.boot.autoconfigure.amqp.RabbitProperties.Ssl",
+      "defaultValue": ""
+    },
+      "name": "spring.rabbitmq.virtualHost",
+      "type": "java.lang.String",
+      "defaultValue": ""
+    },
+      "name": "spring.rabbitmq.addressShuffleMode",
+      "type": "org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.AddressShuffleMode",
+      "defaultValue": "AddressShuffleMode.NONE"
+    },
+      "name": "spring.rabbitmq.requestedHeartbeat",
+      "type": "java.time.Duration",
+      "defaultValue": ""
+    },
+      "name": "spring.rabbitmq.requestedChannelMax",
+      "type": "java.lang.Integer",
+      "defaultValue": "2047"
+    },
+      "name": "spring.rabbitmq.publisherReturns",
+      "type": "java.lang.Boolean",
+      "defaultValue": ""
+    },
+      "name": "spring.rabbitmq.publisherConfirmType",
+      "type": "org.springframework.amqp.rabbit.connection.CachingConnectionFactory.ConfirmType",
+      "defaultValue": ""
+    },
+      "name": "spring.rabbitmq.connectionTimeout",
+      "type": "java.time.Duration",
+      "defaultValue": ""
+    },
+      "name": "spring.rabbitmq.channelRpcTimeout",
+      "type": "java.time.Duration",
+      "defaultValue": "Duration.ofMinutes(10)"
+    },
+      "name": "spring.rabbitmq.cache",
+      "type": "org.springframework.boot.autoconfigure.amqp.RabbitProperties.Cache",
+      "defaultValue": "new Cache()"
     }
     
   ]
