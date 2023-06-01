@@ -1,0 +1,52 @@
+{
+	"groups": [
+		{
+			"name": "rabbit.supplier",
+			"type": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+			"sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties"
+		},
+		{
+			"name": "spring.rabbitmq",
+			"type": "org.springframework.boot.autoconfigure.amqp.RabbitProperties",
+			"sourceType": "org.springframework.boot.autoconfigure.amqp.RabbitProperties"
+		}
+	],
+	"properties": [
+		{
+			"name": "rabbit.supplier.requeue",
+			"type": "java.lang.Boolean",
+			"sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+			"defaultValue": "true"
+		},
+		{
+			"name": "rabbit.supplier.transacted",
+			"type": "java.lang.Boolean",
+			"sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+			"defaultValue": "false"
+		},
+		{
+			"name": "rabbit.supplier.queues",
+			"type": "java.lang.String[]",
+			"sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+			"defaultValue": ""
+		},
+		{
+			"name": "rabbit.supplier.mappedRequestHeaders",
+			"type": "java.lang.String[]",
+			"sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+			"defaultValue": "{'STANDARD_REQUEST_HEADERS'}"
+		},
+		{
+			"name": "rabbit.supplier.initialRetryInterval",
+			"type": "java.lang.Integer",
+			"sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
+			"defaultValue": "1000"
+		},
+		{
+			"name": "spring.rabbitmq.addresses",
+			"type": "java.lang.String",
+			"sourceType": "org.springframework.boot.autoconfigure.amqp.RabbitProperties",
+			"defaultValue": ""
+		}
+	]
+}
