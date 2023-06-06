@@ -35,7 +35,7 @@
       "name": "rabbit.supplier.mappedRequestHeaders",
       "type": "java.lang.String[]",
       "sourceType": "com.cloudgen.n3xgen.rabbitCustom.bean.RabbitSupplierProperties",
-      "defaultValue": "{"STANDARD_REQUEST_HEADERS"}"
+      "defaultValue": "{\"STANDARD_REQUEST_HEADERS\"}"
     },
       {
       "name": "rabbit.supplier.initialRetryInterval",

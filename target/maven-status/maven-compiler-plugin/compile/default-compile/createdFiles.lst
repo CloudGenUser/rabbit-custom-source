@@ -1,5 +1,6 @@
-com\cloud\n3xgen\httpcustom\bean\HttpSupplierProperties$Cors.class
-com\cloud\n3xgen\httpcustom\HttpCustomApplication.class
-com\cloud\n3xgen\httpcustom\bean\HttpSupplierProperties.class
-com\cloud\n3xgen\httpcustom\stream\HttpSupplierConfiguration.class
+com\cloudgen\n3xgen\rabbitCustom\RabbitCustomApplication.class
+com\cloudgen\n3xgen\rabbitCustom\stream\RabbitSupplierConfiguration.class
+com\cloudgen\n3xgen\rabbitCustom\bean\RabbitSupplierProperties.class
+com\cloudgen\n3xgen\rabbitCustom\utils\ComponentCustomizer.class
+com\cloudgen\n3xgen\rabbitCustom\stream\RabbitSupplierConfiguration$1.class
 META-INF\spring-configuration-metadata.json
