@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 D:\Users\6Delta\eclipse-workspace\rabbitCustom\src\main\java\com\cloudgen\n3xgen\rabbitCustom\utils\ComponentCustomizer.java
 D:\Users\6Delta\eclipse-workspace\rabbitCustom\src\main\java\com\cloudgen\n3xgen\rabbitCustom\stream\RabbitSupplierConfiguration.java
 D:\Users\6Delta\eclipse-workspace\rabbitCustom\src\main\java\com\cloudgen\n3xgen\rabbitCustom\RabbitCustomApplication.java
 D:\Users\6Delta\eclipse-workspace\rabbitCustom\src\main\java\com\cloudgen\n3xgen\rabbitCustom\bean\RabbitSupplierProperties.java
+=======
+D:\Eclipse\workspace2\rabbitCustom\src\main\java\com\cloudgen\n3xgen\rabbitCustom\RabbitCustomApplication.java
+D:\Eclipse\workspace2\rabbitCustom\src\main\java\com\cloudgen\n3xgen\rabbitCustom\stream\RabbitSupplierConfiguration.java
+D:\Eclipse\workspace2\rabbitCustom\src\main\java\com\cloudgen\n3xgen\rabbitCustom\bean\RabbitSupplierProperties.java
+>>>>>>> 3b5e80ddc3658aa54b0e2c63f509f7ce5948d8f6

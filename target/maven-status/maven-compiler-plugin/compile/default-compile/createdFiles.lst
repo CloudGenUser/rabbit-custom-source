@@ -1,6 +1,10 @@
 com\cloudgen\n3xgen\rabbitCustom\RabbitCustomApplication.class
 com\cloudgen\n3xgen\rabbitCustom\stream\RabbitSupplierConfiguration.class
 com\cloudgen\n3xgen\rabbitCustom\bean\RabbitSupplierProperties.class
+<<<<<<< HEAD
 com\cloudgen\n3xgen\rabbitCustom\utils\ComponentCustomizer.class
 com\cloudgen\n3xgen\rabbitCustom\stream\RabbitSupplierConfiguration$1.class
 META-INF\spring-configuration-metadata.json
+=======
+com\cloudgen\n3xgen\rabbitCustom\stream\RabbitSupplierConfiguration$1.class
+>>>>>>> 3b5e80ddc3658aa54b0e2c63f509f7ce5948d8f6
